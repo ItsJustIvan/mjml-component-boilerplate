@@ -1,26 +1,103 @@
 <mjml>
-  <mj-body>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="'Open Sans', sans-serif" line-height="1" />
+      <mj-body background-color="#f0f0f0" width="600px" />
+      <mj-section padding="20px 25px" />
+      <mj-column padding="0" />
+      <mj-text padding="0" />
+      <mj-image padding="0" />
+      <mj-wrapper padding="0" />
+      <mj-font name="Open Sans" href="https://fonts.googleapis.com/css2?family=Open+Sans" />
 
-    <!-- The first component, mj-basic-component renders as a column child -->
-    <mj-section>
-      <mj-column>
-        <mj-basic-component color="green">
-          I'm among stars
-        </mj-basic-component>
+      <mj-button background-color="#f25b4b" color="#FFFFFF" font-size="20px" border-radius="4px" align="left"
+        vertical-align="middle" border="none" inner-padding="20px 30px" padding="0" />
+      <mj-social icon-size="35px" />
+      <mj-social-element background-color="transparent" vertical-align="top" icon-size="28px" />
+      <mj-divider border-width="1px" border-style="solid" border-color="#e86d09" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      h1 { font-size: 35px; font-weight: 400; }
+      h3 { font-size: 18px; font-weight: 400; }
+      p { font-size: 22px; } .text-blue { color: #002657; } .text-white { color: #fff; } .small { font-size: 12px; }
+    </mj-style>
+    <mj-style> .cta { color: #e86d09 !important; } .footer-copy { color: #000; font-size:12px; font-weight: 300; }
+      .lCol-2Col { padding-right: 5px; } .rCol-2Col { padding-left: 5px; } .lCol-3Col, midCol-3Col { padding-right: 4px;
+      } .rCol-3Col, midCol-3Col { padding-left: 4px; } </mj-style>
+  </mj-head>
+  <mj-body>
+    <marketo-container id="base">
+      <marketo-module id="generalTextRow" mktoName="General Text Row">
+        <mj-section padding-bottom="20px" padding-top="20">
+          <mj-column width="66.66666666666666%" vertical-align="middle">
+            <mj-text align="left" color="#000000"
+              font-family="Open Sans, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" font-size="11px"
+              padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0"><span
+                style="font-size: 11px">[[HEADLINE]]</span></mj-text>
+          </mj-column>
+          <mj-column width="33.33333333333333%" vertical-align="middle">
+            <mj-text align="right" color="#000000"
+              font-family="Open Sans, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" font-size="11px"
+              padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0"><span
+                style="font-size: 11px"><a href="https://mjml.io"
+                  style="text-decoration: none; color: inherit;">[[PERMALINK_LABEL]]</a></span></mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-section padding-bottom="20px" padding-top="20">
+            <mj-raw>
+      <!--  Logo Header  -->
+    </mj-raw>
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%" vertical-align="top">
+        <mj-image href="https://mjml.io" src="..\ArtAssets\logo.png" alt="Amario logo" align="center" border="none" width="182px" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0"></mj-image>
       </mj-column>
     </mj-section>
-
-    <!-- The second component, mj-image-text renders as a section -->
-    <mj-image-text background-color="#DD685B" image-src="https://mjml.io/assets/img/mjml-logo.png" image-width="100px" font-size="24px" image-position="left">
-      MJML rules! hello modified
-    </mj-image-text>
-
-    <!-- The third component, mj-layout, also renders as a section -->
-    <mj-layout>
-      <mj-text color="blue" font-size="10px">
-        A super nice layout component
-      </mj-text>
-    </mj-layout>
-
+        </mj-section>
+        <mj-section padding-bottom="20px" padding-top="20">
+                <mj-raw>
+      <!-- End Logo Header -->
+      <!--  Hero 1  -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" background-url="https://via.placeholder.com/600x300">
+      <mj-column width="100%" vertical-align="top">
+        <mj-text align="left" color="#fff">
+          <p><span style="font-size: 15px;"><a href="https://mjml.io" style="text-decoration: none; color: inherit;"><span style="font-weight: 900;">EYEBROW</span></a></span>
+          </p>
+        
+          <p><span style="font-size: 35px;"><a href="https://mjml.io" style="text-decoration: none; color: inherit;"><span style="font-weight: bold;"><span style="color: rgb(255, 255, 255);">Cras justo odio dapibus aenean lacinia nulla</span></span>
+            </span>
+          </p>
+        </mj-text>
+        <mj-button >Call to Action</mj-button>
+      </mj-column>
+    </mj-section>
+        </mj-section>
+        <mj-section padding-bottom="20px" padding-top="20">
+        <mj-raw>
+      <!-- End Hero 1 -->
+      <!--  Hero 2-->
+    </mj-raw>
+    <mj-section background-color="#1549b0">
+<mj-column width="66%" vertical-align="top">
+        <mj-text align="left" color="#fff">
+          <p><span style="font-size: 15px;"><a href="https://mjml.io" style="text-decoration: none; color: inherit;"><span style="font-weight: 900;">EYEBROW</span></a></span>
+          </p>
+        <h1>
+          <span style="font-size: 35px;"><a href="https://mjml.io" style="text-decoration: none; color: inherit;"><span style="font-weight: bold;"><span style="color: rgb(255, 255, 255);">Cras justo odio dapibus aenean</span></span>
+            </span>
+          </h1>
+          <p>
+            Nullam quis risus eget urna 
+          </p>
+        </mj-text>
+        <mj-button >Call to Action</mj-button>
+      </mj-column>
+      <mj-column width="33%" vertical-align="top">
+        <mj-image src="https://via.placeholder.com/168x210"></mj-image>
+      </mj-column>
+    </mj-section>
+        </mj-section>
+      </marketo-module>
+    </marketo-container>
   </mj-body>
 </mjml>
