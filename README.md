@@ -1,10 +1,11 @@
-# mjml-component-boilerplate
+# mktomjml-compiler
 
-A boilerplate to quickly get started when creating your own component.  
+MJML with 2 custom components
 
-3 examples can be found in */components*. Each of them introduce new features, so they should be checked in this order : MjBasicComponent, MjImageText, MjLayout.
+marketo-container
+marketo-module
 
-For more complex examples, have a look at standard MJML components code such as [mj-carousel](https://github.com/mjmlio/mjml/tree/master/packages/mjml-accordion).
+Utilizing standard MJML framework, and components.
 
 ## Getting started
 
